@@ -35,4 +35,5 @@ public class BeansConfiguration {
         drinks.add(new Drink("Wine", 607, 7.49));
         return drinks;
     }
+
 }

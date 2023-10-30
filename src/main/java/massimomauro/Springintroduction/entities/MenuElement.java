@@ -1,14 +1,10 @@
 package massimomauro.Springintroduction.entities;
 
-import lombok.AllArgsConstructor;
+
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 
-@Getter
-@Setter
-@ToString
 public abstract class MenuElement {
     private  String name;
     private  long calories;
@@ -20,5 +16,36 @@ public abstract class MenuElement {
         this.price = price;
     }
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public long getCalories() {
+        return calories;
+    }
+
+    public void setCalories(long calories) {
+        this.calories = calories;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "MenuElement{" +
+                "name='" + name + '\'' +
+                ", calories=" + calories +
+                ", price=" + price +
+                '}';
+    }
 }

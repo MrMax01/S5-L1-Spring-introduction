@@ -1,6 +1,7 @@
 package massimomauro.Springintroduction.entities;
 
-import lombok.AllArgsConstructor;
+
+
 
 
 public class Topping extends MenuElement{
