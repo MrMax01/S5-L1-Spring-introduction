@@ -42,8 +42,8 @@ public abstract class MenuElement {
 
     @Override
     public String toString() {
-        return "MenuElement{" +
-                "name='" + name + '\'' +
+        return
+                "{ name='" + name + '\'' +
                 ", calories=" + calories +
                 ", price=" + price +
                 '}';
